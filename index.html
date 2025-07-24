@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Duc-Anh Pham, M.S. Student in Computer Science at Tokyo University of Agriculture and Technology, specializing in edge AI and deep learning quantization.">
+  <meta name="keywords" content="Duc-Anh Pham, edge AI, deep learning, quantization, computer vision, embedded systems">
+  <meta name="author" content="Duc-Anh Pham">
+  <title>Duc-Anh Pham | M.S. Student in Computer Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    .header {
+      background-image: url("hi-tech-3d-blox-interface-wallpaper.jpg"); /* Replace with your image file */
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+      z-index: 0;
+    }
+
+    .profile-content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #e0f7fa;
+      margin-top: 5px;
+    }
+
+    .main {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+    }
+
+    .main p {
+      text-align: justify;
+    }
+
+    h2 {
+      color: #222;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .cv-button {
+      display: inline-block;
+      background-color: #2a9d8f;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .cv-button:hover {
+      background-color: #1b7767;
+    }
+
+    .socials {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+
+    .socials a {
+      margin: 0 8px;
+      color: white;
+    }
+
+    .experience-item {
+      margin-bottom: 1.8rem;
+    }
+    .title-line {
+      font-size: 1.2rem;      
+      font-weight: 700;
+      margin: 0 0 0.25rem 0;
+    }
+    .title-line em {
+      font-weight: 500;
+      margin-left: 0.5rem;
+      font-style: normal;
+      color: #555;
+    }
+    .desc-line {
+      font-size: 1rem;         
+      margin: 0;
+      line-height: 1.4;
+    }
+    .read-more-text {
+      color: #2a9d8f;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 0px;
+    }
+    .read-more-text:hover {
+      text-decoration: underline;
+    }
+    .read-more-text svg {
+      width: 12px;
+      height: 12px;
+      transition: transform 0.3s ease;
+      stroke-width: 2.5;
+    }
+    .read-more-text.expanded svg {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Dark/Light mode toggle button -->
+  <button id="theme-toggle" title="Toggle Light/Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+<div class="header">
+  <div class="profile-content">
+    <img src="DucAnh_Image.jpg" alt="Profile" class="profile-img" style="width: 180px; height: 180px;">
+    <h1>Duc-Anh Pham</h1>
+    <div class="subtitle">M.S. Student in Computer Science</div>
+    <div class="subtitle">Tokyo University of Agriculture and Technology, Tokyo, Japan</div>
+    <div class="socials">
+      <a href="mailto:phamducanh2712@gmail.com" class="email-link">
+  <i class="fas fa-envelope"></i> phamducanh2712@gmail.com
+</a>
+
+      <a href="https://scholar.google.com/citations?user=-Zu1OlAAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://www.linkedin.com/in/duc-anh-pham-440053208/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="CV_PhamDucAnh.pdf" class="cv-button" target="_blank">Download CV</a>
+      <!-- <a href="https://github.com/ducanh2712" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> -->
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <h2>About Me</h2>
+  <p>
+    Hello and welcome to my homepage! I’m <strong>Duc-Anh Pham</strong>, currently a master’s student at 
+    <strong>Tokyo University of Agriculture and Technology (TUAT)</strong>, conducting research in the 
+    <strong>Nakajo Laboratory</strong>. I graduated from <strong>Hanoi University of Science and Technology</strong>, 
+    School of Electrical and Electronic Engineering, Hanoi, Vietnam, with a focus on 
+    <strong>Embedded Systems and IoT</strong> (Elitech K64 Aug 2019 – May 2023). I have one year of experience working in the 
+    field of 4G/5G networks, specifically focusing on the physical layer, alongside strong skills in embedded systems and microelectronics. 
+    My career path is driven by a passion for in-depth research in <strong>edge AI</strong> and <strong>deep learning</strong>, particularly in the area of <strong>quantization</strong>. 
+    I have practical experience working on applications involving classification, detection, and segmentation deployed on embedded boards such as <strong>Raspberry Pi</strong> and <strong>Jetson Nano</strong>. 
+    My mission is to connect and contribute globally to advanced AI systems development.
+  </p>
+
+  <h2>Research Interests</h2>
+  <p>
+    My research is dedicated to developing <strong>efficient and adaptive optimization techniques</strong> tailored for <strong>edge devices</strong>, with a particular emphasis on drastically reducing the complexity of <strong>deep learning models</strong> to enhance <strong>real-time performance</strong> and <strong>energy efficiency</strong>. 
+    Currently, I am focused on exploring <strong>quantization methods</strong>, specifically <strong>binary quantization</strong>, applied to <strong>computer vision models</strong>, with the ambition to extend these approaches to <strong>large language models (LLMs)</strong> in the near future. 
+    Beyond this, I am eager to broaden my research horizons into various facets of <strong>machine learning related to LLMs</strong>, <strong>information security</strong>, and the innovative application of <strong>federated learning architectures</strong> within <strong>robotic environments</strong> and <strong>manufacturing optimization</strong>. 
+    My ultimate goal is to bridge cutting-edge AI research with practical, real-time systems that demand both <strong>intelligence</strong> and <strong>efficiency</strong>.
+  </p>
+
+<h2>Education</h2>
+<ul>
+  <li>
+    M.S. in Department of Electrical Engineering and Computer Science – 
+    <strong>Tokyo University of Agriculture and Technology (TUAT), Tokyo, Japan</strong> 
+    <br>Aug 2024 – Present
+  </li>
+  <li>
+    B.S. in Embedded Systems and IoT (Elitech K64) – 
+    <strong>Hanoi University of Science and Technology, School of Electrical and Electronic Engineering, Hanoi, Vietnam</strong> 
+    <br>Aug 2019 – May 2023 | GPA: 3.45/4.00 (Very Good Classification)
+    <a href="BangTotNghiepBangChinh_BangDiem.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[Transcript/GPA]</a>
+  </li>
+</ul>
+
+<h2>Language Certificates</h2>
+<ul>
+  <li>
+    English: IELTS Overall <strong>Band 7.0</strong> (Mar 2023) 
+    <a href="IELTS_7_Certificate_PhamDucAnh.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[View]</a>
+  </li>
+  <li>
+    Japanese: JLPT <strong>N3</strong> (July 2024) 
+    <a href="path_to_JLPT_Certificate.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[View]</a>
+  </li>
+  <li>Vietnamese: Native</li>
+</ul>
+
+
+<h2>Awards & Scholarships</h2>
+<ul>
+  <li>
+    <strong>MEXT</strong> Scholarship: Japanese Government Scholarship supporting foreign students
+    <a href="path_to_MEXT_Document.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[View]</a>
+  </li>
+  <li>
+    <strong>JASSO</strong> Scholarship: 3-month Research Student Exchange Program in Tokyo, Japan 
+    <a href="JASSO_TUAT_Japan_Certificate_PhamDucAnh.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[View]</a>
+  </li>
+  <li>
+    Annually Excellent <strong> A-level Scholarship:</strong> Top 1% students (2022, 1st semester)
+  </li>
+  <li>
+    <strong>Mentor:</strong> Supporting junior students (ETE9 - Smart Embedded System & IoT major) 
+    <a href="Mentoring_ETE9.pdf" target="_blank" style="margin-left: 10px; color: #2a9d8f;">[View]</a>
+  </li>
+</ul>
+<h2>Experience</h2>
+
+<div class="experience-item">
+  <p class="title-line">
+    <strong>Nakajo Laboratory – Tokyo University of Agriculture and Technology (TUAT), Tokyo, Japan</strong>
+    <em>(Oct 2024 – Present)</em>
+  </p>
+  <p class="desc-line">
+    Graduate student conducting research on real-time computer vision applications and edge AI deployment on resource-constrained hardware such as <strong>Raspberry Pi</strong> and <strong>Jetson Nano</strong>.
+    <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+      Read more
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </span>
+  </p>
+  <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+    <li>Research on classification, semantic segmentation, quantization-aware training, and binary neural networks using PyTorch and Keras.</li>
+    <li>Responsible for data collection, annotation, and processing for agricultural and paddy field applications.</li>
+  </ul>
+</div>
+
+<div class="experience-item">
+  <p class="title-line">
+    <strong>Viettel High Technology Industries Corporation, Hanoi, Vietnam</strong>
+    <em>(Oct 2023 – Oct 2024)</em>
+  </p>
+  <p class="desc-line">
+    Embedded/Telecommunications Network Developer focusing on 4G/5G and Mixmode network technologies.
+    <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+      Read more
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </span>
+  </p>
+  <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+    <li>Research and development of 4G/5G and Mixmode network technologies.</li>
+    <li>Developed physical layer components for downlink transmission processes.</li>
+    <li>Created interfaces for Mixmode Network chips from Viettel, Intel, Qualcomm, Zilnk, and Comba.</li>
+    <li>Built an automated quality testing tool for Remote Radio Units (RRU) using Python.</li>
+  </ul>
+</div>
+
+<div class="experience-item">
+  <p class="title-line">
+    <strong>EDABK Laboratory – Hanoi University of Science and Technology (HUST), Hanoi, Vietnam</strong>
+    <em>(Apr 2021 – Oct 2023)</em>
+  </p>
+  <p class="desc-line">
+    AI - Embedded Research Student working on machine learning and embedded systems.
+    <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+      Read more
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </span>
+  </p>
+  <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+    <li>Conducted research in Machine Learning, Deep Learning, and Convolutional Neural Networks (CNNs).</li>
+    <li>Worked on video and image processing projects for human sleep recognition and violence detection using drones.</li>
+    <li>Participated in the development of Embedded Operating Systems and Real-Time Operating Systems (RTOS).</li>
+  </ul>
+</div>
+
+<h2>Projects</h2>
+
+<div class="experience-item">
+  <p class="title-line">
+    <strong>Student Detection System</strong>
+    <em>(Mar 2022 – May 2022)</em>
+  </p>
+  <p class="desc-line">
+    Real-time image detection project using <strong>Python</strong>, <strong>Keras</strong>, and <strong>OpenCV</strong>.
+    <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+      Read more
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </span>
+  </p>
+  <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+    <li>Built a system for real-time human detection in surveillance scenarios.</li>
+    <li>Utilized <strong>YOLOv5</strong> models for bounding box extraction and tracking.</li>
+  </ul>
+</div>
+
+<div class="experience-item">
+  <p class="title-line">
+    <strong>Sleeping Positions Recognition System</strong>
+    <em>(June 2022 – Aug 2022)</em>
+  </p>
+  <p class="desc-line">
+    Image segmentation and classification project using <strong>Python</strong> and <strong>TensorFlow</strong>.
+    <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false">
+      Read more
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </span>
+  </p>
+  <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+    <li>Developed a system to recognize <strong>23 human sleeping positions</strong> in hospital beds for patient monitoring.</li>
+    <li>Implemented and fine-tuned pre-trained <strong>ResNet50</strong> and <strong>EfficientNetB0</strong> models.</li>
+  </ul>
+</div>
+
+<style>
+  .experience-item {
+    margin-bottom: 1.8rem;
+  }
+  .title-line {
+    font-size: 1.2rem;      
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  .title-line em {
+    font-weight: 500;
+    margin-left: 0.5rem;
+    font-style: normal;
+    color: #555;
+  }
+  .desc-line {
+    font-size: 1rem;         
+    margin: 0;
+    line-height: 1.4;
+  }
+  .read-more-text {
+    color: #2a9d8f;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 0px;
+  }
+  .read-more-text:hover {
+    text-decoration: underline;
+  }
+  .read-more-text svg {
+    width: 12px;
+    height: 12px;
+    transition: transform 0.3s ease;
+    stroke-width: 2.5;
+  }
+  .read-more-text.expanded svg {
+    transform: rotate(180deg);
+  }
+</style>
+
+<script>
+  function toggleDetails(element) {
+    let details;
+
+    const next1 = element.parentElement.nextElementSibling;
+    const next2 = next1 ? next1.nextElementSibling : null;
+
+    if (next1 && next1.tagName === 'UL') {
+      details = next1;
+    } else if (next2 && next2.tagName === 'UL') {
+      details = next2;
+    } else {
+      return; 
+    }
+
+    const expanded = element.getAttribute('aria-expanded') === 'true';
+
+    if (expanded) {
+      details.style.display = 'none';
+      element.setAttribute('aria-expanded', 'false');
+      element.innerHTML = 'Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>';
+      element.classList.remove('expanded');
+    } else {
+      details.style.display = 'block';
+      element.setAttribute('aria-expanded', 'true');
+      element.innerHTML = 'Show less <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>';
+      element.classList.add('expanded');
+    }
+  }
+</script>
+
+   <h2>Publications</h2>
+
+  <!-- Publication 1 -->
+  <div style="margin-bottom: 40px; border: 1px solid #ccc; padding: 15px; border-radius: 6px; position: relative;">
+    <p class="title-line" style="font-size: 1.1rem; font-weight: 600; margin: 0 0 6px 0;">
+      Dual-Rate Alpha Binary Networks: An Energy-Efficient Optimization Approach for Waste Classification
+      <em style="font-weight: 400; font-size: 0.95rem;">(July 2025)</em>
+      <a href="dual_rate_alpha_binary_networks.pdf" target="_blank" style="color: #007bff; margin-left: 12px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">[View PDF]</a>
+    </p>
+    <p style="margin: 0 0 8px 0; font-weight: 500;">
+      <strong>Duc Anh Pham</strong> and Hironori Nakajo.
+      <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="color: #2a9d8f; cursor: pointer; user-select: none; font-weight: 500; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px; margin-left: 8px;">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px; transition: transform 0.3s ease;">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </p>
+    <p style="margin: 0 0 10px 0; font-style: italic; color: #555; font-size: 0.95rem;">
+      18th IIAI International Congress on Advanced Applied Informatics (IIAI-AAI 2025), Kitakyushu, Japan
+    </p>
+    <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+      <li>Proposed a novel dual-rate binary quantization neural network (DRA-BNN) using quantization-aware training (QAT) for real-time waste classification on embedded devices.</li>
+      <li>Achieved 89.80% accuracy on CIFAR-10 with 237M FLOPS, outperforming ReLU and prior binary networks.</li>
+      <li>On a public garbage dataset, reached 82.66% accuracy at 237.63M FLOPS, significantly more efficient than ResNet18 (91.62% at 1820M FLOPS).</li>
+    </ul>
+    <div style="position: absolute; bottom: 10px; right: 15px; color: darkred; font-style: italic; font-weight: 600; font-size: 0.85rem;">
+      Conference Paper
+    </div>
+  </div>
+
+  <!-- Publication 2 -->
+  <div style="margin-bottom: 40px; border: 1px solid #ccc; padding: 15px; border-radius: 6px; position: relative;">
+    <p class="title-line" style="font-size: 1.1rem; font-weight: 600; margin: 0 0 6px 0;">
+      Estimating the Coverage of Multiple Species of Paddy Field Weeds Using Semantic Segmentation
+      <em style="font-weight: 400; font-size: 0.95rem;">(July 2025)</em>
+      <a href="estimating_weed_coverage.pdf" target="_blank" style="color: #007bff; margin-left: 12px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">[View PDF]</a>
+    </p>
+    <p style="margin: 0 0 8px 0; font-weight: 500;">
+      Yusuke Sayou, <strong>Duc-Anh Pham</strong>, Tetsuya Nakamura, Keisuke Katsura, Taiichiro Ookawa, and Hironori Nakajo.
+      <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="color: #2a9d8f; cursor: pointer; user-select: none; font-weight: 500; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px; margin-left: 8px;">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px; transition: transform 0.3s ease;">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </p>
+    <p style="margin: 0 0 10px 0; font-style: italic; color: #555; font-size: 0.95rem;">
+      18th IIAI International Congress on Advanced Applied Informatics (IIAI-AAI 2025), Kitakyushu, Japan
+    </p>
+    <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+      <li>Proposed a semantic segmentation method to estimate weed coverage in rice paddies, classifying into five categories including broadleaf, Cyperaceae, and aquatic plants. Constructed a real-world dataset captured via smartphone with top-down images covering 1 m<sup>2</sup> per sample.</li>
+      <li>Achieved a mean IoU of 0.60 using a single-stage segmentation approach, outperforming multi-stage variants in both accuracy and efficiency.</li>
+    </ul>
+    <div style="position: absolute; bottom: 10px; right: 15px; color: darkred; font-style: italic; font-weight: 600; font-size: 0.85rem;">
+      Conference Paper
+    </div>
+  </div>
+
+  <!-- Publication 3 -->
+  <div style="margin-bottom: 40px; border: 1px solid #ccc; padding: 15px; border-radius: 6px; position: relative;">
+    <p class="title-line" style="font-size: 1.1rem; font-weight: 600; margin: 0 0 6px 0;">
+      Navigable Areas Segmentation Method for Unmanned Surface Vehicles in Paddy Fields
+      <em style="font-weight: 400; font-size: 0.95rem;">(Oct 2023)</em>
+    </p>
+    <p style="margin: 0 0 8px 0; font-weight: 500;">
+      Kentaro Machida, Tetsuya Nakamura, Jingyong Cai, Thinh Nguyen-Quang, <strong>Duc Anh Pham</strong>, Han Huy-Dung, Huy Hoang Nguyen, Taiichiro Ookawa, Hironori Nakajo.
+      <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="color: #2a9d8f; cursor: pointer; user-select: none; font-weight: 500; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px; margin-left: 8px;">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px; transition: transform 0.3s ease;">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </p>
+    <p style="margin: 0 0 10px 0; font-style: italic; color: #555; font-size: 0.95rem;">
+      2023 IEEE 11th Region 10 Humanitarian Technology Conference (R10-HTC), Rajkot, India
+    </p>
+    <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+      <li>Developed a segmentation-based navigation system for unmanned surface vehicles operating in flooded paddy fields.</li>
+      <li>Achieved 85.2% segmentation accuracy and enabled a 91% success rate in autonomous navigation trials.</li>
+    </ul>
+    <div style="position: absolute; bottom: 10px; right: 15px; color: darkred; font-style: italic; font-weight: 600; font-size: 0.85rem;">
+      Conference Paper
+    </div>
+  </div>
+
+  <!-- Publication 4 -->
+  <div style="margin-bottom: 40px; border: 1px solid #ccc; padding: 15px; border-radius: 6px; position: relative;">
+    <p class="title-line" style="font-size: 1.1rem; font-weight: 600; margin: 0 0 6px 0;">
+      A novel Violence Detection for Drone Surveillance
+      <em style="font-weight: 400; font-size: 0.95rem;">(May 2023)</em>
+    </p>
+    <p style="margin: 0 0 8px 0; font-weight: 500;">
+      Huy Hoang Nguyen, Quoc Trung Le, Van Quang Nghiem, Minh Son Hoang, <strong>Duc Anh Pham</strong>.
+      <span class="read-more-text" onclick="toggleDetails(this)" role="button" tabindex="0" aria-expanded="false" style="color: #2a9d8f; cursor: pointer; user-select: none; font-weight: 500; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px; margin-left: 8px;">
+        Read more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px; transition: transform 0.3s ease;">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </p>
+    <p style="margin: 0 0 10px 0; font-style: italic; color: #555; font-size: 0.95rem;">
+      2023 International Conference on Communication, Circuits, and Systems (IC3S), BHUBANESWAR, India
+    </p>
+    <ul class="details" style="display:none; margin-left: 20px; color: #333;">
+      <li>Built a YOLOv4-based real-time violence detection system for aerial drone footage.</li>
+      <li>Achieved 92.3% precision and 88.7% recall on a custom surveillance dataset at 18 FPS on Jetson Nano.</li>
+    </ul>
+    <div style="position: absolute; bottom: 10px; right: 15px; color: darkred; font-style: italic; font-weight: 600; font-size: 0.85rem;">
+      Conference Paper
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .read-more-text svg {
+    transition: transform 0.3s ease;
+  }
+  .read-more-text.expanded svg {
+    transform: rotate(180deg);
+  }
+</style>
+
