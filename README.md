@@ -1,21 +1,15 @@
-# Welcome to My Personal Website
+# Personal Website of Duc-Anh Pham
 
-👋 Hi there! I'm **Duc-Anh**, and this is my personal website hosted using GitHub Pages.
+Welcome to my personal academic website, hosted on GitHub Pages. This site serves as a professional portfolio to document my research, projects, and provide contact details.
 
-## 👨‍💻 About Me
+## About Me
 
-I'm passionate about technology, machine learning, and web development. This site serves as a place to showcase my projects, share my thoughts, and provide contact information.
+I am **Duc-Anh Pham**, a Master’s student specializing in Artificial Intelligence. I am passionate about advancing knowledge in machine learning and applying it to solve real-world problems. Here you will find an overview of my work, publications, and insights into my research interests.
 
-## 📂 Projects
+## Contact
 
-* [**Project A**](https://github.com/phamkhanhquan197/project-a): A machine learning model for image classification.
-* [**Project B**](https://github.com/phamkhanhquan197/project-b): A personal blog built with Jekyll and hosted on GitHub Pages.
+- **Email:** phamducanh2712@gmail.com  
+- **Website:** [https://ducanh2712.github.io/ducanhpham.github.io/](https://ducanh2712.github.io/ducanhpham.github.io/)  
+- **LinkedIn:** [https://linkedin.com/in/duc-anh-pham-440053208](https://linkedin.com/in/duc-anh-pham-440053208)  
 
-## 📫 Contact Me
-
-* 📧 Email: phamducanh2712@gmail.com
-* 🌐 Website: https://ducanh2712.github.io/ducanhpham.github.io/
-* 💼 LinkedIn: [linkedin.com/in/duc-anh-pham-440053208](https://linkedin.com/in/yourprofile)
-
-Thanks for visiting!
-
+Thank you for your visit and interest in my academic journey.
